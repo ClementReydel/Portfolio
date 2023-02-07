@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: lightgrey;
+    font-family: "Ubuntu";
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    font-family: "Lora";
+    background-color: gray;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    /*margin : auto 0;*/
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    /*width: 50px;*/
+    height: 30px;
+    color: white;
+    /*background-color: blue;*/
+    /*display: flex;
+    justify-content: center;
+    vertical-align: middle;*/
+}
+
+nav a:hover{
+    background-color: rgb(158, 158, 158);
+}
+
+.mescompetences{
+    text-align: center;
+}
+
+.competences{
+    text-align: center;
+}
+
+.mesexperiences{
+    text-align: center;
+}
+
+.experiences{
+    text-align: center;
+}
+
+.mesprojets{
+    text-align: center;
+}
+
+.projets{
+    text-align: center;
+}
+
+.mespassions{
+    text-align: center;
+}
+
+.passions{
+    text-align: center;
+}
+
+.mesliens{
+    text-align: center;
+    width: 100%;
+}
+
+.liens{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;
+    width: 100%;
+    margin;*/
+}
